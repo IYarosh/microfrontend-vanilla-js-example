@@ -1,0 +1,28 @@
+{
+  "name": "microfrontend-vanilla-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IYarosh/microfrontend-vanilla-js-example.git"
+  },
+  "author": "IYarosh@qulix.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IYarosh/microfrontend-vanilla-js-example/issues"
+  },
+  "homepage": "https://github.com/IYarosh/microfrontend-vanilla-js-example#readme",
+  "dependencies": {
+    "single-spa": "^5.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "html-webpack-plugin": "^4.0.4"
+  }
+}
